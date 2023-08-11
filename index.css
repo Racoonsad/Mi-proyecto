@@ -18,7 +18,27 @@ body, html {
     padding: 20px;
     box-sizing: border-box;
     border: 1px solid #ccc; /* Agrega bordes */
-}
+ }
+/* ... (otros estilos) ... */
+
+.libros-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .libro {
+    display: none;
+ }
+ 
+ .libro-activo {
+    display: block;
+ }
+
+ .mostrar-todos .libro {
+    display: block;
+ }
 
 /* Estilo para el encabezado */
 header {
