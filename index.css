@@ -76,13 +76,13 @@ header h1 {
 .navbar ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
 
 .navbar li {
-    margin: 0 1rem;
+    margin: 0 10px;
 }
 
 .navbar a {
