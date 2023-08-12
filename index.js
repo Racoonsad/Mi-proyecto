@@ -14,5 +14,3 @@ enlaceInicio.addEventListener('click', (event) => {
     event.preventDefault(); // Evita que el enlace recargue la página
     location.reload(); // Recarga la página
 });
-
-
