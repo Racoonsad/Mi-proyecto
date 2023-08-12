@@ -1,70 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- datos del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página y enlace a la hoja de estilos -->
     <title>Librería de Racoon</title>
     <link rel="icon" type="image/png" href="./Imagenes/favicon.png" >
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- Encabezado de la página -->
     <header>
         <h1>Librería de Racoon</h1>
     </header>
+    <!-- Barra de navegación -->
     <nav class="navbar">
         <ul>
+            <!-- Enlace a la página de inicio -->
             <li><a href="#" id="enlace-inicio">Inicio</a></li>
+            <!-- Enlace a la sección de libros con clase para el botón -->
             <li><a href="#libros" class="boton-libros">Libros</a></li>
+            <!-- Enlace de contacto por correo electrónico -->
             <li><a href="mailto:mattosjuan1202castro@gmail.com">Contacto</a></li>
         </ul>
     </nav>
+    <!-- Contenedor principal -->
     <div class="wrapper">
-    <main>
-        <section class="libros-container" id="libros">
-        <section class="libro libro-activo">
-            <p class="recomendado">¡El libro más recomendado!</p>
-            <h2>El Arte de la Guerra</h2>
-            <img src="C:\Users\Usuario\Desktop\MI POYECTO\Imagenes\El arte de la guerra.png" alt="Portada El Arte de la Guerra">
-            <p>Clásico libro de estrategia militar escrito por Sun Tzu. Explora tácticas y estrategias para la guerra y la competencia.</p>
-            <div class="comentarios">
-                <h3>Comentarios de Clientes</h3>
-                <ul>
-                    <li>¡Excelente libro! - Juan Manuel</li>
-                    <li>Una lectura fascinante. - María Castro</li>
-                </ul>
-            </div>
-            <a href="https://www.amazon.com/-/es/El-Arte-Guerra-audiolibro/dp/B00H7X37BM/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3HVJMR69RKR1D&keywords=el+arte+de+la+guerra&qid=1691829155&s=audible&sprefix=el+arte+de+la+guerra+%2Caudible%2C152&sr=1-1" class="comprar-button">Comprar</a>
-        </section>
-        <section class="libro">
-            <h2>El Libro de los Cinco Anillos</h2>
-            <img src="C:\Users\Usuario\Desktop\MI POYECTO\Imagenes\Los cinco anillos.png" alt="Portada El Libro de los Cinco Anillos">
-            <p>Obra de Miyamoto Musashi que aborda aspectos de la estrategia y el camino del guerrero. Destaca la importancia de la adaptación y el dominio personal.</p>
-            <div class="comentarios">
-                <h3>Comentarios de Clientes</h3>
-                <ul>
-                    <li>Es interesante como las enseñanzas que estan enfocadas en el combate se pueden aplicar al dia a dia, además del transfondo de como al alcanzar la cuspide - Dario Bechara</li>
-                    <li>Es dificl de entender por como esta escrito. - Maria Jose</li>
-                </ul>
-            </div>
-            <a href="https://www.amazon.com/-/es/dp/B09X71PHPM/ref=sr_1_1?keywords=el+libro+de+los+5+anillos&qid=1691828999&sprefix=el+libro+de+los%2Caps%2C144&sr=8-1" class="comprar-button">Comprar</a>
-        </section>
-        <section class="libro">
-            <h2>El Príncipe</h2>
-            <img src="C:\Users\Usuario\Desktop\MI POYECTO\Imagenes\El pricipe.png" alt="Portada El Príncipe">
-            <p>Escrito por Nicolás Maquiavelo, este libro analiza el poder político y ofrece consejos sobre liderazgo y gobernanza.</p>
-            <div class="comentarios">
-                <h3>Comentarios de Clientes</h3>
-                <ul>
-                    <li>Sin duda, un libro esencial para quienes buscan comprender las dinámicas del gobierno y el poder. - David martines</li>
-                    <li>Personalmente, encontré 'El Príncipe' un tanto cínico y despiadado en su enfoque hacia el liderazgo. - Alexander oñate</li>
-                </ul>
-            </div>
-            <a href="https://www.amazon.com/-/es/El-Principe-audiolibro/dp/B00BZGYDQA/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=FCX72GD0HZMB&keywords=el+principe&qid=1691829201&s=audible&sprefix=el+principe+%2Caudible%2C136&sr=1-1" class="comprar-button">Comprar</a>
-        </section>
-</div>
-    <footer>
+        <!-- Contenido principal -->
+        <main>
+            <!-- Sección de libros con ID para enlace -->
+            <section class="libros-container" id="libros">
+                <!-- Libro: El Arte de la Guerra -->
+                <section class="libro libro-activo">
+                    <!-- Mensaje de recomendación -->
+                    <p class="recomendado">¡El libro más recomendado!</p>
+                    <h2>El Arte de la Guerra</h2>
+                    <!-- Imagen y descripción del libro -->
+                    <img src="C:\Users\Usuario\Desktop\MI POYECTO\Imagenes\El arte de la guerra.png" alt="Portada El Arte de la Guerra">
+                    <p>Clásico libro de estrategia militar escrito por Sun Tzu. Explora tácticas y estrategias para la guerra y la competencia.</p>
+                    <!-- Sección de comentarios de clientes -->
+                    <div class="comentarios">
+                        <h3>Comentarios de Clientes</h3>
+                        <ul>
+                            <li>¡Excelente libro! - Juan Manuel</li>
+                            <li>Una lectura fascinante. - María Castro</li>
+                        </ul>
+                    </div>
+                    <!-- Enlace para comprar el libro -->
+                    <a href="https://www.amazon.com/-/es/El-Arte-Guerra-audiolibro/dp/B00H7X37BM/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=3HVJMR69RKR1D&keywords=el+arte+de+la+guerra&qid=1691829155&s=audible&sprefix=el+arte+de+la+guerra+%2Caudible%2C152&sr=1-1" class="comprar-button">Comprar</a>
+                </section>
+                <!-- Libro: El Libro de los Cinco Anillos -->
+                <section class="libro">
+                    <h2>El Libro de los Cinco Anillos</h2>
+                    <!-- Imagen y descripción del libro -->
+                    <img src="C:\Users\Usuario\Desktop\MI POYECTO\Imagenes\Los cinco anillos.png" alt="Portada El Libro de los Cinco Anillos">
+                    <p>Obra de Miyamoto Musashi que aborda aspectos de la estrategia y el camino del guerrero. Destaca la importancia de la adaptación y el dominio personal.</p>
+                    <!-- Sección de comentarios de clientes -->
+                    <div class="comentarios">
+                        <h3>Comentarios de Clientes</h3>
+                        <ul>
+                            <li>Es interesante como las enseñanzas que están enfocadas en el combate se pueden aplicar al día a día, además del trasfondo de cómo al alcanzar la cúspide - Dario Bechara</li>
+                            <li>Es difícil de entender por cómo está escrito. - Maria Jose</li>
+                        </ul>
+                    </div>
+                    <!-- Enlace para comprar el libro -->
+                    <a href="https://www.amazon.com/-/es/dp/B09X71PHPM/ref=sr_1_1?keywords=el+libro+de+los+5+anillos&qid=1691828999&sprefix=el+libro+de+los%2Caps%2C144&sr=8-1" class="comprar-button">Comprar</a>
+                </section>
+                <!-- Libro: El Príncipe -->
+                <section class="libro">
+                    <h2>El Príncipe</h2>
+                    <!-- Imagen y descripción del libro -->
+                    <img src="C:\Users\Usuario\Desktop\MI POYECTO\Imagenes\El pricipe.png" alt="Portada El Príncipe">
+                    <p>Escrito por Nicolás Maquiavelo, este libro analiza el poder político y ofrece consejos sobre liderazgo y gobernanza.</p>
+                    <!-- Sección de comentarios de clientes -->
+                    <div class="comentarios">
+                        <h3>Comentarios de Clientes</h3>
+                        <ul>
+                            <li>Sin duda, un libro esencial para quienes buscan comprender las dinámicas del gobierno y el poder. - David Martinez</li>
+                            <li>Personalmente, encontré 'El Príncipe' un tanto cínico y despiadado en su enfoque hacia el liderazgo. - Alexander Oñate</li>
+                        </ul>
+                    </div>
+                    <!-- Enlace para comprar el libro -->
+                    <a href="https://www.amazon.com/-/es/El-Principe-audiolibro/dp/B00BZGYDQA/ref=sr_1_1?__mk_es_US=ÅMÅŽÕÑ&crid=FCX72GD0HZMB&keywords=el+principe&qid=1691829201&s=audible&sprefix=el+principe+%2Caudible%2C136&sr=1-1" class="comprar-button">Comprar</a>
+                </section>
+            </section>
+        </main>
+    </div>
+    <!-- Pie de página -->
+    <footer class="footer">
         <p>&copy; 2023 Librería de Racoon.</p>
     </footer>
+    <!-- Archivo de script JavaScript -->
     <script src="index.js"></script>
 </body>
 </html>

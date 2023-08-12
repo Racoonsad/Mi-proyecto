@@ -18,21 +18,23 @@ body, html {
     padding: 20px;
     box-sizing: border-box;
     border: 1px solid #ccc; /* Agrega bordes */
- }
-/* ... (otros estilos) ... */
+}
 
+/* Estilos para los libros */
 .libros-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
- }
+}
 
- .libro {
+.libro {
     display: none;
- }
- .comprar-button {
+}
+
+/* Estilo para el botón de comprar */
+.comprar-button {
     margin-top: 10px;
     display: inline-block; 
     padding: 10px 20px; 
@@ -43,14 +45,15 @@ body, html {
     border-radius: 5px; 
     transition: background-color 0.3s, color 0.3s; 
 }
- 
- .libro-activo {
-    display: block;
- }
 
- .mostrar-todos .libro {
+.libro-activo {
     display: block;
- }
+}
+
+/* Estilo para mostrar todos los libros */
+.mostrar-todos .libro {
+    display: block;
+}
 
 /* Estilo para el encabezado */
 header {
@@ -81,8 +84,9 @@ header h1 {
     padding: 0;
 }
 
+/* Estilo para los elementos de la barra de navegación */
 .navbar li {
-    margin: 0 200px;
+    margin: 0 20px; /* Espaciado horizontal entre elementos de la barra */
 }
 
 .navbar a {
@@ -90,6 +94,8 @@ header h1 {
     color: white;
     font-weight: bold;
 }
+
+/* Estilo para la sección de comentarios */
 .comentarios {
     margin-top: 20px;
     padding: 10px;
@@ -111,12 +117,12 @@ header h1 {
     margin-bottom: 5px;
 }
 
+/* Estilo para el mensaje de recomendación */
 .recomendado {
     font-size: 1.6rem;
     font-weight: bold;
     color: #000000; 
 }
-
 
 /* Estilo para el footer */
 footer {
