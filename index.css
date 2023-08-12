@@ -90,6 +90,27 @@ header h1 {
     color: white;
     font-weight: bold;
 }
+.comentarios {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comentarios h3 {
+    margin-top: 0;
+}
+
+.comentarios ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.comentarios li {
+    margin-bottom: 5px;
+}
+
 
 /* Estilo para el footer */
 footer {
